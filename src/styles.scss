@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet');
+
+@import './color-variables.scss';
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: $neutral-silver;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 64;
+  line-height: 76;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 36;
+  line-height: 44;
+}
+
+h3{
+  font-weight: 600;
+  font-size: 28;
+  line-height: 36;
+}
+
+h4{
+  font-weight: 600;
+  font-size: 20;
+  line-height: 28;
+}
+
+button{
+  cursor: pointer;
+}

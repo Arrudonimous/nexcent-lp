@@ -1,0 +1,27 @@
+@import "../../../color-variables.scss";
+
+button{
+  border: 0;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.btn-primary{
+  background-color: $primary;
+  color: $neutral-white;
+}
+
+.btn-secondary{
+  background: none;
+  color: $primary;
+}
+
+.small{
+  font-size: 12px;
+  line-height: 16px;
+}
+.medium{
+  font-size: 16;
+  line-height: 24px;
+}
