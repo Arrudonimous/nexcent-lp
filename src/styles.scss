@@ -8,30 +8,31 @@
 
 body{
   background-color: $neutral-silver;
+  color: $neutral-dark-grey;
 }
 
 h1{
   font-weight: 600;
-  font-size: 64;
-  line-height: 76;
+  font-size: 64px;
+  line-height: 76px;
 }
 
 h2{
   font-weight: 600;
-  font-size: 36;
-  line-height: 44;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 h3{
   font-weight: 600;
-  font-size: 28;
-  line-height: 36;
+  font-size: 28px;
+  line-height: 36px;
 }
 
 h4{
   font-weight: 600;
-  font-size: 20;
-  line-height: 28;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 button{

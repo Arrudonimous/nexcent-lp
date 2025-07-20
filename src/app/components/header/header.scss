@@ -1,0 +1,19 @@
+@import "../../../color-variables.scss";
+
+
+.pageHeader{
+  display: flex;
+  padding: 96px 144px;
+  gap: 104px;
+
+  .content{
+    b{
+      color: $primary;
+      font-weight: 600;
+    }
+
+    p{
+      color: $neutral-grey;
+    }
+  }
+}
