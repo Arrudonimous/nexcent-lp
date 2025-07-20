@@ -1,0 +1,28 @@
+.clientsSection{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 144px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  h2{
+    line-height: 0px;
+  }
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logosContainer{
+  padding: 30px 4x;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
