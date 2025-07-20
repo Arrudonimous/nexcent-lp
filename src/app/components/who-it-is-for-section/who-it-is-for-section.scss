@@ -1,0 +1,15 @@
+.contentContainer{
+  padding: 10px 144px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 100px;
+
+  .contentItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
